@@ -36,7 +36,8 @@ body{
 } 
 .list{
     list-style: none;
-    
+    padding: 0;
+    margin: 0;
 }
 
 .button{
@@ -47,7 +48,13 @@ body{
     border: 1px solid transparent;
     }
 
+
 /* логотип */
+.conteiner{
+    padding: 0 156px;
+    width: 1128px;
+}
+
 .logo {
     color: var(--primary-text-color);
     text-decoration: none;
@@ -65,14 +72,36 @@ body{
     color: var(--irish-color);
 }
 
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 
 /* навигация */
+.site-nav{
+    display: flex;
+    margin-left: 77px;
+}
+
+.site-nav .item {
+    margin-right: 40px;
+}
+
+.site-nav .item:last-child {
+    margin-right: 0;
+}
+
+
 .site-nav a{
+    display: block;
     color: var(--primary-text-color);
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .site-nav a:hover,
@@ -87,13 +116,31 @@ body{
 
 
 /* адресса */
+.main-nav,.main-navv{
+    display: flex;
+    align-items: center;
+}
+.main-navv{
+    margin-left: 156px;
+}
+
+.auth-nav{
+        display: flex;
+        margin-left: 331px;
+        margin-right: 156px;
+    }
+
+.auth-nav .item + .item{
+    margin-left: 40px;
+}
+
 .auth-nav a {
     color: var(--primary-text-color);
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
-
 }
+
 
 .auth-nav a:hover,
 .auth-nav a:focus {
@@ -104,17 +151,19 @@ body{
 /* заголовок */
 .hero{
     background-color: var(--title-text-color);
+    text-align: center;
+    margin-top: 0;
 }
 .hero-title{
+    /* background-color: blueviolet; */
     color: var(--accent-color);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 40px;
 }
-.hero button {
+.hero .button {
     color: var(--accent-color);
     background-color: var(--irish-color);
     cursor:pointer;
@@ -124,6 +173,7 @@ body{
     border-radius: 4px;
     padding: 16px 32px;
     min-width: 170px;
+    /* margin-bottom: 192px; */
 }
 
 /* список 4 блока */
@@ -133,25 +183,57 @@ body{
     font-size: 20px;
     line-height: 1.2;
 }
+/* .pad-top {
+    margin-top: 120px;
+} */
+.feature-list{
+    display: flex;
+}
 
+.feature-list li{
+    margin-right: 24px;
+}
 
+.feature-list li:last-child {
+    margin-right: 0;
+}
 /* список 3 картинки */
-.section h2 {
+.section .section-title {
     color:var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    margin-top:0 ;
+
+}
+
+.pictures .list {
+    display: flex;
+    margin-left: ;
+    
+}
+
+.pictures .list li{
+    margin-right: 24px;
 }
 
 /* команда */
 .team{
     background-color: var(--cloud-color);
+    padding-bottom: 120px;
+    padding-top:120px; ;
 }
 .team .team-list {
     background-color: var(--accent-color);
 }
+
+.pad-top .list{
+    display: flex;
+}
+
+
 
 .section p {
     font-size: 16px;
@@ -163,6 +245,7 @@ body{
 .footer{
     color: var(--accent-color);
     background-color: var(--title-text-color);
+    padding: 100px 1020px 100px 156px;
 }
 .logo-footer{
     color: var(--irish-color);
@@ -192,17 +275,37 @@ body{
 /* Portfolio */
 
 /* buttons */
+.list-button{
+    margin-top: 96px;
+    margin-bottom: 72px;
+    /* display: block; */
+    margin-left: 427px;
+    margin-right: 427px;
+}
+
+.buttons li{
+    margin-right: 24px;
+}
+
+.buttons li:last-child {
+    margin-right: 0;
+}
+
+.buttons {
+    display: flex;
+    text-align: center;
+}
 
 .buttons-menu{
-    display: inline-block;
     color: var(--irish-color);
     background-color: var(--cloud-color);
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
-    padding: 4px 8px;
+    padding: 12px 24px;
     border-radius: 4px;
+
     }
 
 .buttons-menu:hover,
@@ -214,10 +317,13 @@ body{
 }
 
 /* product */
-.section.product a{
+.product a{
         text-decoration: none;
     }
 
+.list-sect{
+    padding: 0 156px 0 156px;
+}
 
 .product p{
         color:var(--primary-text-color)
