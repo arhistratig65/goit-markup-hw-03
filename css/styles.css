@@ -84,14 +84,42 @@ h1,h2,h3,p{
 .logo .logo-web {
     color: var(--irish-color);
 }
+.logo-list{
+    display: flex;
+}
+.header-list {
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    
+}
 
 /* навигация */
+
+
+
 .site-nav a{
     color: var(--primary-text-color);
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    /* display: block; ??????????????????????????????????????*/
+}
+
+.site-nav{
+    display: flex;
+    margin-left: 77px;
+}
+
+.site-nav .item{
+    margin-right: 40px;
+}
+
+.site-nav li:last-child {
+    margin-right: o;
 }
 
 .site-nav a:hover,
@@ -111,7 +139,17 @@ h1,h2,h3,p{
     text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
+.auth-nav{
+    display: flex;
+    margin-left: auto;
+}
+
+.auth-nav .item:first-child{
+    margin-right: 40px ;
 }
 
 .auth-nav a:hover,
@@ -159,6 +197,17 @@ h1,h2,h3,p{
     line-height: 1.2;
 }
 
+.feature-list{
+    display: flex;
+}
+
+.feature-list li{
+    margin-right: 22px;
+}
+.feature-list .item:last-child {
+    margin-right: 0px;
+}
+
 
 
 /* список 3 картинки */
@@ -172,6 +221,16 @@ h1,h2,h3,p{
 }
 .doing{
     padding-bottom: 72px;
+}
+
+.picturec {
+    display: flex;
+}
+.picturec li{
+    margin-right: 24px;
+}
+.picturec li:last-child {
+    margin-right: 0px;
 }
 
 /* команда */
@@ -191,9 +250,30 @@ h1,h2,h3,p{
     padding-bottom: 72px;
 }
 
-/* .text{
+.team-item{
+    display: flex;
     text-align: center;
-} */
+}
+
+.team-item li{
+    margin-right: 24px;
+}
+
+.team-item li:last-child {
+    padding-right: 0px;
+}
+.section.team{
+    margin-bottom: 0;
+    padding-bottom: 120px;
+}
+.text{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.text h3{
+    padding-bottom: 8px;
+}
 
 
 /* футер */
