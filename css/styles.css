@@ -123,8 +123,11 @@ body{
     font-size: 56px;
     line-height: 1.07;
     /* text-align: center; */
+    padding-top: 192px;
+    padding-left :228px; 
+    padding-right: 228px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 48px;
 }
 .hero .button {
     color: var(--accent-color);
@@ -136,6 +139,7 @@ body{
     border-radius: 4px;
     padding: 16px 32px;
     min-width: 170px;
+    margin-bottom: 192px;
 }   
 
 /* список 4 блока */
