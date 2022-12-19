@@ -49,6 +49,23 @@ body{
     border: 1px solid transparent;
     border-radius: 4px;
     }
+.conteiner{
+    width: 1128px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.section{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+h1,h2,h3,p{
+    margin: 0;
+}
+
+
 
 /* логотип */
 .logo {
@@ -68,21 +85,6 @@ body{
     color: var(--irish-color);
 }
 
-.conteiner{
-    width: 1128px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-.section{
-    margin-top: 120px;
-    margin-bottom: 120px;
-}
-
-h1,h2,h3,p{
-    margin: 0;
-}
 /* навигация */
 .site-nav a{
     color: var(--primary-text-color);
@@ -150,7 +152,7 @@ h1,h2,h3,p{
 }   
 
 /* список 4 блока */
-.section h3{
+.section h3,.product h3{
     color:var(--title-text-color) ;
     font-weight: 700;
     font-size: 20px;
@@ -177,7 +179,7 @@ h1,h2,h3,p{
     background-color: var(--accent-color);
 }
 
-.section p {
+.section p,.product p {
     font-size: 16px;
     line-height: 1.5;
 }
@@ -248,7 +250,7 @@ h1,h2,h3,p{
 }
 
 /* product */
-.section.product a{
+.product a{
         text-decoration: none;
     }
 
