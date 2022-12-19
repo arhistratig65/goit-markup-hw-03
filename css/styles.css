@@ -33,6 +33,7 @@ body{
     background-color:var(--accent-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
+    margin: 0;
 } 
 .list{
     list-style: none;
@@ -65,6 +66,11 @@ body{
     color: var(--irish-color);
 }
 
+.conteiner{
+    width: 1128px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* навигация */
 .site-nav a{
