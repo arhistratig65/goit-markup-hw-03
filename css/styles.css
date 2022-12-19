@@ -53,7 +53,10 @@ body{
 
 /* логотип */
 .conteiner{
-    padding: 0 156px;
+    padding-left:15px ;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     width: 1128px;
 }
 
@@ -76,7 +79,7 @@ body{
 
 .section{
     padding-top: 120px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
 }
 
 
@@ -122,14 +125,15 @@ body{
     display: flex;
     align-items: center;
 }
-.main-navv{
-    margin-left: 156px;
+.page-header{
+    border-bottom: 2px solid rgba(46, 47, 66, 0.08);
 }
+
+
 
 .auth-nav{
         display: flex;
-        margin-left: 331px;
-        margin-right: 156px;
+        margin-left: auto;
     }
 
 .auth-nav .item + .item{
@@ -155,6 +159,7 @@ body{
     background-color: var(--title-text-color);
     text-align: center;
     margin-top: 0;
+    width: 1440px;
 }
 .hero-title{
     /* background-color: blueviolet; */
@@ -175,7 +180,8 @@ body{
     border-radius: 4px;
     padding: 16px 32px;
     min-width: 170px;
-    /* margin-bottom: 192px; */
+    /* margin-bottom: 192px;
+    margin-top: 360px; */
 }
 
 /* список 4 блока */
@@ -185,9 +191,9 @@ body{
     font-size: 20px;
     line-height: 1.2;
 }
-/* .pad-top {
-    margin-top: 120px;
-} */
+.pad-top {
+    margin-bottom: 0;
+}
 .feature-list{
     display: flex;
 }
@@ -209,12 +215,12 @@ body{
     text-align: center;
     text-transform: capitalize;
     margin-top:0 ;
+    margin-bottom: 72px;
 
 }
 
 .pictures .list {
     display: flex;
-    /* margin-left: ; */
     
 }
 
@@ -227,13 +233,46 @@ body{
     background-color: var(--cloud-color);
     padding-bottom: 120px;
     padding-top:120px; ;
-}
-.team .team-list {
-    background-color: var(--accent-color);
+    margin-top: 120px;
+    width: 1440px;
+
 }
 
+.team .team-list {
+    background-color: var(--accent-color);
+    text-align: center;
+    margin-right: 24px;
+    margin-top: 0;
+}
+.team-list .section-title{
+    /* padding-top: 32px;
+    padding-bottom: 8px; */
+    font-size: 20px;
+    line-height: 1,2 ;
+    margin-bottom: 0;
+
+}
+
+.section-title .section-time{
+    padding-bottom: 0;
+
+}
+
+.team .list{
+    padding-left: 156px ;
+    padding-right: 156px;
+}
+
+.team-list p {
+margin-top: 8px ;
+margin-bottom: 0;
+}
 .pad-top .list{
     display: flex;
+}
+.text{
+    margin: 32px 16px;
+    /* background-color: aqua; */
 }
 
 
@@ -331,4 +370,8 @@ body{
 .product p{
         color:var(--primary-text-color)
     }
+
+.product h3{
+    color: var(--title-text-color)
+}
 
