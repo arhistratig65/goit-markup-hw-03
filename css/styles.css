@@ -64,8 +64,10 @@ body{
 h1,h2,h3,p{
     margin: 0;
 }
-
-
+/* header */
+.header{
+    border-bottom: 2px solid rgba(46, 47, 66, 0.08);
+}
 
 /* логотип */
 .logo {
@@ -91,7 +93,7 @@ h1,h2,h3,p{
     display: flex;
     margin-top: 24px;
     margin-bottom: 24px;
-    
+    /* align-items: center; */
 }
 
 /* навигация */
@@ -106,7 +108,7 @@ h1,h2,h3,p{
     line-height: 1.5;
     padding-top: 24px;
     padding-bottom: 24px;
-    /* display: block; ??????????????????????????????????????*/
+    /* display: block; */
 }
 
 .site-nav{
@@ -202,7 +204,8 @@ h1,h2,h3,p{
 }
 
 .feature-list li{
-    margin-right: 22px;
+    margin-right: 24px;
+    width: 264px;
 }
 .feature-list .item:last-child {
     margin-right: 0px;
@@ -228,6 +231,7 @@ h1,h2,h3,p{
 }
 .picturec li{
     margin-right: 24px;
+
 }
 .picturec li:last-child {
     margin-right: 0px;
@@ -315,6 +319,17 @@ h1,h2,h3,p{
 /* Portfolio */
 
 /* buttons */
+.list.buttons{
+    display: flex;
+    margin-top: 96px;
+    margin-bottom: 81px;
+    justify-content:center;
+}
+
+.list.buttons li{
+    margin-right: 24px;
+}
+
 
 .buttons-menu{
     display: inline-block;
@@ -337,6 +352,30 @@ h1,h2,h3,p{
 }
 
 /* product */
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product li{
+    width: 360px;
+        margin-right: 20px;
+        margin-bottom: 39px;
+        border: 0.5px solid #F4F4FD;
+            box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.product li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.product li:nth-last-child(-n +3) {
+    margin-bottom: 0;
+}
+
 .product a{
         text-decoration: none;
     }
@@ -345,4 +384,8 @@ h1,h2,h3,p{
 .product p{
         color:var(--primary-text-color)
     }
+
+.product .text{
+    margin-left: 16px;
+}
 
