@@ -287,7 +287,10 @@ margin-bottom: 0;
 .footer{
     color: var(--accent-color);
     background-color: var(--title-text-color);
-    padding: 100px 1020px 100px 156px;
+    /* width: 1440px;
+    padding-left: 156px;
+    padding-top: 100px;
+    padding-bottom: 100px; */
 }
 .logo-footer{
     color: var(--irish-color);
@@ -372,4 +375,21 @@ margin-bottom: 0;
 .product h3{
     color: var(--title-text-color)
 }
+.list-sect .product{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 120px ;
+}
+.flex-element{
+    width: 360px;
+    margin-right: 24px;
+    margin-bottom: 39px;
+}
 
+.flex-element:nth-child(3n) {
+    margin-right: 0;
+}
+
+.flex-element:nth-last-child(-n +3) {
+    margin-bottom: 0;
+}
