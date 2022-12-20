@@ -342,7 +342,7 @@ h1,h2,h3,p{
 .list.buttons{
     display: flex;
     /* margin-top: 96px; */
-    margin-bottom: 81px;
+    margin-bottom: 72px;
     justify-content:center;
     column-gap: 24px;
     /* row-gap: 48px; */
