@@ -21,9 +21,6 @@ Font Roboto Weight 400
 
 */
 
-*{
-    box-sizing:content-box;
-} 
 
 :root{
     --primary-text-color: rgba(67, 68, 85, 1);/* var(--primary-text-color) */
@@ -58,12 +55,12 @@ body{
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .section{
-    /* margin-top: 120px; */
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 h1,h2,h3,p{
@@ -126,7 +123,7 @@ h1,h2,h3,p{
 }
 
 .site-nav li:last-child {
-    margin-right: o;
+    margin-right: 0px;
 }
 
 .site-nav a:hover,
@@ -169,6 +166,8 @@ h1,h2,h3,p{
 .hero{
     background-color: var(--title-text-color);
     text-align: center; 
+    padding-top: 192px;
+    padding-bottom: 192px;
 }
 
 .hero-title{
@@ -176,12 +175,11 @@ h1,h2,h3,p{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    /* text-align: center; */
-    padding-top: 192px;
     margin-left :auto; 
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 48px;
+    padding-bottom: 48px;
     width: 492px;
 }
 .hero .button {
@@ -194,7 +192,6 @@ h1,h2,h3,p{
     border-radius: 4px;
     padding: 16px 32px;
     min-width: 170px;
-    margin-bottom: 192px;
 }   
 
 /* список 4 блока */
@@ -204,6 +201,11 @@ h1,h2,h3,p{
     font-size: 20px;
     line-height: 1.2;
 }
+
+.fore {
+    padding-bottom: 0px;
+}
+
 
 .feature-list{
     display: flex;
@@ -216,7 +218,7 @@ h1,h2,h3,p{
 
 .feature-list li{
     margin-right: 24px;
-    width: 264px;
+    /* width: 264px; */
 }
 .feature-list .item:last-child {
     margin-right: 0px;
@@ -234,7 +236,7 @@ h1,h2,h3,p{
     text-transform: capitalize;
 }
 .doing{
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .picturec {
@@ -242,10 +244,16 @@ h1,h2,h3,p{
 }
 .picturec li{
     margin-right: 24px;
-
 }
 .picturec li:last-child {
     margin-right: 0px;
+}
+
+.picturec li  img{
+    height: auto;
+    width: 100%;
+    display: block;
+
 }
 
 /* команда */
@@ -261,8 +269,8 @@ h1,h2,h3,p{
     line-height: 1.5;
 }
 .our-team{
-    padding-top: 120px;
-    padding-bottom: 72px;
+    /* padding-top: 120px; */
+    margin-bottom: 72px;
 }
 
 .team-item{
@@ -275,19 +283,19 @@ h1,h2,h3,p{
 }
 
 .team-item li:last-child {
-    padding-right: 0px;
+    margin-right: 0px;
 }
-.section.team{
+/* .section.team{
     margin-bottom: 0;
     padding-bottom: 120px;
-}
+} */
 .text{
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
 .text h3{
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 
@@ -334,7 +342,7 @@ h1,h2,h3,p{
 /* buttons */
 .list.buttons{
     display: flex;
-    margin-top: 96px;
+    /* margin-top: 96px; */
     margin-bottom: 81px;
     justify-content:center;
     column-gap: 24px;
@@ -345,6 +353,10 @@ h1,h2,h3,p{
     margin-right: 24px;
 } */
 
+.section-portfolio{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 
 .buttons-menu{
     display: inline-block;
@@ -378,9 +390,6 @@ h1,h2,h3,p{
         margin-right: 24px;
         margin-bottom: 39px;
         border: 0.5px solid #F4F4FD;
-            box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-                0px 1px 1px rgba(46, 47, 66, 0.16),
-                0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .product li:nth-child(3n) {
@@ -393,6 +402,9 @@ h1,h2,h3,p{
 
 .product a{
         text-decoration: none;
+        width: 100%;
+        height: 100%;
+
     }
 
 
@@ -401,6 +413,11 @@ h1,h2,h3,p{
     }
 
 .product .text{
-    margin-left: 16px;
+    padding-left: 16px;
+    box-shadow:
+    0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 
