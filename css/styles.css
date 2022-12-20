@@ -337,11 +337,13 @@ h1,h2,h3,p{
     margin-top: 96px;
     margin-bottom: 81px;
     justify-content:center;
+    column-gap: 24px;
+    /* row-gap: 48px; */
 }
 
-.list.buttons li{
+/* .list.buttons li{
     margin-right: 24px;
-}
+} */
 
 
 .buttons-menu{
