@@ -168,6 +168,10 @@ h1,h2,h3,p{
     text-align: center; 
     padding-top: 192px;
     padding-bottom: 192px;
+    height: 600px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-title{
@@ -192,6 +196,7 @@ h1,h2,h3,p{
     padding: 16px 32px;
     min-width: 170px;
 }   
+
 
 /* список 4 блока */
 .section h3,.product h3{
@@ -291,6 +296,10 @@ h1,h2,h3,p{
 .text{
     padding-top: 32px;
     padding-bottom: 32px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .text h3{
@@ -302,6 +311,10 @@ h1,h2,h3,p{
 .footer{
     color: var(--accent-color);
     background-color: var(--title-text-color);
+    height: 310px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-con{
